@@ -1,0 +1,16 @@
+//Aqui no arquivo principal, adicionar apenas variáveis, constantes, funções ou rotas.
+
+//Paleta de Cores
+$preto1: #000000;
+$branco1: #ffffff;
+
+//Lista de constantes
+@mixin ocultar {
+	display: none;
+}
+
+//Lista de rotas do Sass
+@import 'reset';
+@import 'header';
+@import 'footer';
+@import 'home';
