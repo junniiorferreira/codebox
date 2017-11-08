@@ -8,9 +8,3 @@ $branco1: #ffffff;
 @mixin ocultar {
 	display: none;
 }
-
-//Lista de rotas do Sass
-@import 'reset';
-@import 'header';
-@import 'footer';
-@import 'home';
