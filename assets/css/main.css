@@ -8,8 +8,32 @@
   src: url("../fonts/Myriad-Pro.ttf");
   src: local("../fonts/Myriad-Pro"), url("../fonts/Myriad-Pro.ttf") format("truetype"); }
 
+@font-face {
+  font-family: 'GothamBook';
+  src: url("../fonts/GothamBook.eot");
+  src: local("GothamBook"), url("../fonts/GothamBook.woff") format("woff"), url("../fonts/GothamBook.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'gothamregular';
+  src: url("../fonts/gothamregular.ttf");
+  src: local("gothamregular"), url("../fonts/gothamregular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'gothamlight';
+  src: url("../fonts/gothamlight.otf");
+  src: local("gothamlight"), url("../fonts/gothamlight.otf") format("truetype"); }
+
 .gothambold {
   font-family: 'gothambold' !important; }
 
 .myriadpro {
   font-family: 'gothambold' !important; }
+
+.fontsforweb_fontid_10146 {
+  font-family: 'GothamBook' !important; }
+
+.gothamregular {
+  font-family: 'gothamregular' !important; }
+
+.gothamlight {
+  font-family: 'gothamlight' !important; }

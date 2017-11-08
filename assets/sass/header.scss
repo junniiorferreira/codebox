@@ -1,20 +1,126 @@
+.transition {
+    transition: all .5s cubic-bezier(.17,.84,.44,1);
+    -webkit-transition: all .5s cubic-bezier(.17,.84,.44,1);
+    -moz-transition: all .5s cubic-bezier(.17,.84,.44,1);
+    -o-transition: all .5s cubic-bezier(.17,.84,.44,1);
+    -ms-transition: all .5s cubic-bezier(.17,.84,.44,1);	
+}
+
 .mobile-menu{
+	@extend .transition;
     background: #343434;
     position: absolute;
     width: 100%;
     z-index: 2;
+    padding: 25px;
+    padding-bottom: 10px;
+    transform: translate3d(0, -100%, 0);
+    .btn-back {
+	    color: #ffffffff;
+	    font-size: 20px;
+	    padding-bottom: 25px;
+	}    
+	.input-group{
+		.form-control {
+			font-family: 'GothamBook', 'FontAwesome';
+			border-radius: 0;
+			background: transparent;
+		}
+		.input-group-btn{
+			font-family: 'GothamBook';
+			font-size: 12px;
+			line-height: 30px;
+			font-weight: 400;
+			.btn-default {
+			    border-radius: 0;
+			    background: #078bcd;
+			    border-color: #078bcd;
+			    color: #ffffff;
+			}	
+		}
+		
+	}		
     .menu-list{
+		padding-top:30px;    	
     	li{
 		    font-size: 16px;
 		    font-family: 'gothambold';
 		    color: #ffffff;
+		    border-bottom: 1px solid #444444;
+    		margin-bottom: 10px;
+		    padding-left: 10px;
+		    &:last-child{
+		    	border-bottom: none;
+		    }
 		    p{
 		    	font-size: 12px;
 		    	font-family: 'Myriad-Pro';
-		    	color: #c3c3c3;
+		    	color: #7a7a7a;
+		        padding-bottom: 5px;	
 		    }
     	}
     }
+}
+.login-form{
+	.form-group{
+    	margin-bottom: 10px;		
+		img{
+		    float: left;
+		    border-bottom: 1px solid #ccc;
+		}
+		.form-control{
+			border-radius: 0;
+			width: 85%;
+			height: 27px;
+			font-family: 'GothamBook';			
+			font-size: 10px;
+			line-height: 21px;
+			font-weight: 400;
+		}					
+		.btn-primary {
+			border-radius: 0;
+		    width: 100%;
+		    font-family: 'gothamlight';
+		    font-size: 14px;
+		    font-weight: 400;
+		    line-height: 21px;
+		    text-transform: uppercase;		    
+		}
+		p{
+			font-family: 'GothamBook';
+			font-size: 12px;
+			line-height: 21px;
+			color: #05284e;			
+			a{
+				font-family: 'gothambold';
+				color: #05284e;
+			}
+		}					
+	}
+	.form-check{
+		font-size: 9px;
+		line-height: 21px;
+		text-align: left;
+		color: #494949;
+		input{
+			font-family: 'gothamregular';
+			vertical-align: top;
+		}
+		a{
+			vertical-align: top;
+			color: #494949;
+			float: right;
+		}	
+	}
+	.login-form-title{
+		text-align: left;
+		font-family: 'gothamregular';		
+		font-size: 14px;
+		line-height: 21px;
+		font-weight: 400;
+		color: #078bcd;
+		text-transform: uppercase;			
+	}					
 }
 .header{
 	display: inline-flex;
@@ -32,4 +138,26 @@
 	    margin-left: auto;
 	    margin-right: auto;
 	}	
+}
+.remodal-wrapper{
+	.remodal{
+	    min-width: 260px!important;
+	    min-height: 260px!important;
+	    max-width: 440px!important;
+	    max-height: 430px!important;	    	
+	}
+}
+
+@media screen and (min-width:1200px) and (max-width: 1359px) {
+	.mobile-menu{
+		display:none;
+	}
+	.header{
+		.btn-menu{
+			display: none;
+		}
+		.btn-login{
+			display: none;
+		}
+	}
 }
