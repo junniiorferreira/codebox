@@ -1,4 +1,4 @@
 # codebox
-It's not just a framework!
+# It's not just a framework!
 
-Contact (WhatsApp): <b>+55 21 98513-0711</b>
+Created by Junniior Ferreira, the code box is a set of initial configurations that are friendly to all internet browsers and mobile screens.
