@@ -1,0 +1,28 @@
+.homepage{
+	.banner{
+	    max-height: 340px;
+		#banner-bg-web{
+			display: none;
+		}
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.homepage{
+		.banner{
+		    max-height: 440px;
+		    z-index: 1;
+			#banner-bg-web{
+				display: block;
+    			top: 0!important;				
+			}
+			#banner-bg-mobile{
+				display: none;
+			}			
+		}
+	}	
+}
+@media screen and (min-width:1360px) and (max-width: 1400px) {}
+@media screen and (min-width:1400px) and (max-width: 1599px) {}
+@media screen and (min-width:1600px) and (max-width: 1919px) {}
+@media screen and (min-width:1920px) {}

@@ -1,0 +1,14 @@
+.homepage .banner {
+  max-height: 340px; }
+  .homepage .banner #banner-bg-web {
+    display: none; }
+
+@media screen and (min-width: 1200px) {
+  .homepage .banner {
+    max-height: 440px;
+    z-index: 1; }
+    .homepage .banner #banner-bg-web {
+      display: block;
+      top: 0 !important; }
+    .homepage .banner #banner-bg-mobile {
+      display: none; } }

@@ -61,15 +61,34 @@
 			</form>
 		</div>	
 	</div>
-</div>	
-<div class="header">
-	<div class="btn-menu">
-		<img src="assets/images/ico-menu.png">
-	</div>
-	<div class="menu-logo">
-		<img src="assets/images/logo-mobile.png">
-	</div>	
-	<div class="btn-login">
-		<a data-remodal-target="login" href="#login"><img src="assets/images/ico-user.png"></a>
-	</div>
 </div>
+<div class="login-box">
+	<div class="btn-login">
+		<a data-remodal-target="login" href="#login"><img src="assets/images/btn-login.png"></a>
+	</div>
+	<div class="btn-search">
+		<img src="assets/images/btn-search.png">
+	</div>	
+</div>
+<div class="homepage">
+	<div class="header">
+		<div class="btn-menu">
+			<img src="assets/images/ico-menu.png">
+		</div>
+		<div class="menu-logo">
+			<img class="logo-mobile" src="assets/images/logo-mobile.png">
+			<img class="logo-web" src="assets/images/logo-web.png">
+		</div>
+		<div class="btn-login">
+			<a data-remodal-target="login" href="#login"><img src="assets/images/ico-user.png"></a>
+		</div>
+		<div class="menu-principal">
+			<ul class="menu-list">
+				<li>Início<p>Bem-vindo a Rede</p></li>
+				<li>Pessoas<p>Saiba mais sobre os membros</p></li>
+				<li>Organizações<p>Conheça as organizações participantes</p></li>
+				<li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li>
+				<li>Eventos<p>O que acontece na FGV</p></li>
+			</ul>		
+		</div>	
+	</div>

@@ -1,6 +1,5 @@
 footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   background: #ededed;
   width: 100%; }
   footer p {
@@ -13,7 +12,7 @@ footer {
     line-height: 30px;
     color: #818181; }
 
-@media screen and (min-width: 1200px) and (max-width: 1359px) {
+@media screen and (min-width: 1200px) {
   footer p {
     text-align: right;
     padding-right: 10%; } }
