@@ -1,6 +1,69 @@
 .homepage{
 	.banner{
-	    max-height: 340px;
+	    border-bottom: 5px solid #078bcd;
+		width: 100%;
+		display: inline-block;	    
+	    .banner-box{
+		    position: absolute;
+		    z-index: 2;
+		    padding-top: 25px;
+		    padding-bottom: 25px;
+		    width: 85%;
+		    margin-left: 7.5vw;
+		    margin-right: auto;		    	
+			.login-form{
+				.login-form-title {
+				    text-align: center;
+				    font-family: 'gothamregular';
+				    font-size: 18px;
+				    font-weight: 400;
+				    color: #ffffff;
+				    text-transform: none;
+				    line-height: 21px;    
+				}
+				.form-group{
+					text-align: center;
+					.form-control{
+						width: 100%;
+						border-radius: 0;				
+						height: 37px;
+					    font-family: 'GothamBook';	
+						font-size: 14px;
+					    line-height: 21px;
+						font-weight: 400;									
+					}
+					.btn-primary{
+					    border-radius: 0;
+					    width: 90%;
+					    font-family: 'gothamlight';				
+						font-size: 16px;
+					    text-transform: none;
+					    background: #078bcd;
+					    font-weight: 400;
+					    line-height: 21px;
+					    border-bottom: 5px solid #0566a6;
+					    margin-top: 10px;           		    				
+					}					
+				}
+			}
+			.banner-info{
+				.info-title {
+					font-family: 'gothamregular';					
+				    font-size: 18px;
+				    font-weight: 400;
+				    line-height: 25px;
+				    color: #fdffcc;
+				    padding-bottom: 10px;
+				    padding-top: 20px;    
+				}				
+				.info-content {
+				    font-size: 12px;
+				    font-weight: 400;
+				    color: #ffffff;
+				    padding-bottom: 10px;
+				}				
+			}
+	    }	       
 		#banner-bg-web{
 			display: none;
 		}
@@ -12,6 +75,7 @@
 		.banner{
 		    max-height: 440px;
 		    z-index: 1;
+		    border-bottom: 5px solid #078bcd;
 			#banner-bg-web{
 				display: block;
     			top: 0!important;				
