@@ -48,6 +48,7 @@
       padding-bottom: 10px;
       padding-top: 20px; }
     .homepage .banner .banner-box .banner-info .info-content {
+      font-family: 'GothamBook';
       font-size: 12px;
       font-weight: 400;
       color: #ffffff;
@@ -109,10 +110,12 @@
     padding-top: 20px; }
   .homepage .docentes .docentes-box .docentes-list .docente {
     padding-top: 40px; }
-    .homepage .docentes .docentes-box .docentes-list .docente img {
+    .homepage .docentes .docentes-box .docentes-list .docente .docente-img-mobile {
       display: block;
       margin-left: auto;
       margin-right: auto; }
+    .homepage .docentes .docentes-box .docentes-list .docente .docente-img-web {
+      display: none; }
     .homepage .docentes .docentes-box .docentes-list .docente .docente-name {
       font-family: 'GothamBook';
       font-size: 14px;
@@ -224,8 +227,133 @@
     max-height: 440px;
     z-index: 1;
     border-bottom: 5px solid #078bcd; }
+    .homepage .banner .banner-box {
+      padding-top: 120px;
+      width: 70%;
+      margin-left: 11vw; }
+      .homepage .banner .banner-box .banner-form {
+        display: table; }
+        .homepage .banner .banner-box .banner-form .login-form {
+          display: table-cell;
+          vertical-align: bottom;
+          width: 30%; }
+          .homepage .banner .banner-box .banner-form .login-form .login-form-title {
+            font-size: 22px; }
+          .homepage .banner .banner-box .banner-form .login-form .form-group {
+            text-align: left; }
+            .homepage .banner .banner-box .banner-form .login-form .form-group .form-control {
+              width: 100%; }
+            .homepage .banner .banner-box .banner-form .login-form .form-group .btn-primary {
+              width: 40%; }
+        .homepage .banner .banner-box .banner-form .banner-info {
+          display: table-cell;
+          vertical-align: top;
+          padding-left: 8vw; }
+          .homepage .banner .banner-box .banner-form .banner-info .info-title {
+            font-size: 27px;
+            line-height: 36px; }
+          .homepage .banner .banner-box .banner-form .banner-info .info-content {
+            font-size: 12px; }
     .homepage .banner #banner-bg-web {
       display: block;
       top: 0 !important; }
     .homepage .banner #banner-bg-mobile {
-      display: none; } }
+      display: none; }
+  .homepage .home-row {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #eeeeee; }
+    .homepage .home-row .pesquisas {
+      width: 40%;
+      margin-left: auto;
+      margin-right: 0; }
+      .homepage .home-row .pesquisas .pesquisas-box {
+        text-align: right;
+        width: 90%;
+        border-bottom: 0;
+        margin-right: 1vw; }
+        .homepage .home-row .pesquisas .pesquisas-box .pesquisa-title {
+          text-align: left; }
+        .homepage .home-row .pesquisas .pesquisas-box .pesquisas-list .pesquisa {
+          display: table;
+          width: 100%; }
+          .homepage .home-row .pesquisas .pesquisas-box .pesquisas-list .pesquisa:first-child {
+            padding-top: 22px; }
+          .homepage .home-row .pesquisas .pesquisas-box .pesquisas-list .pesquisa .pesquisa-name {
+            text-align: left;
+            display: table-cell;
+            width: 75%; }
+          .homepage .home-row .pesquisas .pesquisas-box .pesquisas-list .pesquisa .pesquisa-value {
+            display: table-cell;
+            width: 25%;
+            text-align: left; }
+        .homepage .home-row .pesquisas .pesquisas-box button {
+          max-width: 120px; }
+    .homepage .home-row .docentes {
+      width: 30%;
+      margin-left: 0;
+      margin-right: 0;
+      border: 1px solid #eeeeee;
+      border-bottom: 0;
+      border-top: 0; }
+      .homepage .home-row .docentes .docentes-box {
+        text-align: right;
+        width: 90%;
+        border-bottom: 0; }
+        .homepage .home-row .docentes .docentes-box .docente-title {
+          text-align: left; }
+        .homepage .home-row .docentes .docentes-box .docentes-list {
+          text-align: left; }
+          .homepage .home-row .docentes .docentes-box .docentes-list .docente {
+            display: table;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 15px; }
+            .homepage .home-row .docentes .docentes-box .docentes-list .docente .docente-name {
+              margin-left: 20px;
+              line-height: 20px; }
+            .homepage .home-row .docentes .docentes-box .docentes-list .docente .docente-img-mobile {
+              display: none; }
+            .homepage .home-row .docentes .docentes-box .docentes-list .docente .docente-img-web {
+              display: inline-table; }
+            .homepage .home-row .docentes .docentes-box .docentes-list .docente span {
+              display: inline-table; }
+        .homepage .home-row .docentes .docentes-box button {
+          margin-top: 20px;
+          max-width: 120px; }
+    .homepage .home-row .nucleos {
+      width: 40%;
+      margin-left: 0;
+      margin-right: auto;
+      border-bottom: 0; }
+      .homepage .home-row .nucleos .nucleos-box {
+        text-align: right;
+        width: 90%;
+        border-bottom: 0;
+        margin-left: 2vw; }
+        .homepage .home-row .nucleos .nucleos-box .nucleos-list .nucleo {
+          padding-top: 30px; }
+          .homepage .home-row .nucleos .nucleos-box .nucleos-list .nucleo .nucleo-name {
+            font-size: 14px; }
+        .homepage .home-row .nucleos .nucleos-box .nucleo-title {
+          text-align: left; }
+        .homepage .home-row .nucleos .nucleos-box .nucleos-list {
+          padding-left: 0;
+          padding-top: 0px; }
+        .homepage .home-row .nucleos .nucleos-box button {
+          margin-top: 45px;
+          max-width: 120px; }
+  .homepage .estatisticas .estatisticas-box {
+    border-bottom: none;
+    width: 100%; }
+    .homepage .estatisticas .estatisticas-box .estatistica-title {
+      text-align: left;
+      padding-left: 7vw; }
+    .homepage .estatisticas .estatisticas-box .estatisticas-list {
+      display: inline-flex; }
+      .homepage .estatisticas .estatisticas-box .estatisticas-list li .estatistica {
+        margin-left: 1vw;
+        margin-right: 1vw; } }
