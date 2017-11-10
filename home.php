@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php include('header-home.php') ?>
 	<div class="banner">
 		<div class="banner-box">
 			<div class="banner-form">

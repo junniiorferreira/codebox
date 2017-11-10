@@ -71,7 +71,7 @@
 		<img src="assets/images/btn-search.png">
 	</div>	
 </div>
-<div class="page">
+<div class="homepage">
 	<div class="header">
 		<div class="btn-menu">
 			<img src="assets/images/ico-menu.png">

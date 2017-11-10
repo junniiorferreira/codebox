@@ -1,0 +1,101 @@
+.search{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;	
+    .breacumb{
+    	display: none;
+    }
+	.search-title {
+	    font-family: 'gothamregular';
+	    font-size: 14px;
+	    line-height: 36px;
+	    color: #585858;
+	    width: 100%;
+	    border-bottom: 1px solid #e4e4e4;
+	    text-transform: uppercase;
+	    padding-left: 5vw;
+	}
+	.search-container{
+	    padding-top: 20px;	
+		.search-box{
+			&:last-child{
+				padding-bottom: 75px;					
+			}			
+			.search-box-title {
+				font-family: 'gothamregular';
+				font-size: 10px;
+				line-height: 30px;
+				color: #078bcd;
+				text-transform: uppercase;
+				background: #f3f3f3;
+				padding-left: 5vw;
+			}
+			.search-list{
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;				
+				.search-result{
+					list-style-image: url('../images/list-style.png');
+					&:first-child{
+						padding-top: 25px;					
+					}												
+					.result-info {
+						font-family: 'GothamBook';						
+					    font-size: 12px;
+					    line-height: 15px;
+					    color: #686868;
+					}
+					.result-label {
+						font-family: 'GothamBook';						
+					    font-size: 10px;
+					    line-height: 56px;
+					    color: #8a8a8a;
+					}					
+				}
+			}
+		}
+	}	
+}
+@media screen and (min-width:1200px) {
+	.page{
+		.search {
+		    padding-top: 110px;
+		    .breacumb {
+				font-family: 'GothamBook';
+				font-size: 13px;
+				line-height: 20px;
+				color: #8e8e8e;
+				text-align: right;
+				display: block;
+			    padding-right: 2vw;	
+			}			
+			.search-title{
+				padding-left: 2vw;				
+			}
+			.search-container{
+				.search-box{
+					.search-box-title{
+						padding-left: 2vw;
+						font-size: 13px;
+						line-height: 40px;							
+					}
+					.search-list{
+    					width: 95%;
+    					.search-result{
+							.result-info{
+							    font-size: 14px;							
+							}
+							.result-label{
+								font-size: 12px;
+							}    						
+    					}					
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width:1360px) and (max-width: 1400px) {}
+@media screen and (min-width:1400px) and (max-width: 1599px) {}
+@media screen and (min-width:1600px) and (max-width: 1919px) {}
+@media screen and (min-width:1920px) {}
