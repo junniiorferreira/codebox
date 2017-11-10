@@ -55,6 +55,170 @@
   .homepage .banner #banner-bg-web {
     display: none; }
 
+.homepage .pesquisas .pesquisas-box {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  .homepage .pesquisas .pesquisas-box .pesquisa-title {
+    font-family: 'gothamregular';
+    font-size: 20px;
+    line-height: 36px;
+    color: #078bcd;
+    padding-top: 20px; }
+  .homepage .pesquisas .pesquisas-box .pesquisas-list .pesquisa .pesquisa-name {
+    font-family: 'GothamBook';
+    font-size: 14px;
+    line-height: 54px;
+    color: #565656;
+    text-transform: uppercase; }
+  .homepage .pesquisas .pesquisas-box .pesquisas-list .pesquisa .pesquisa-value {
+    font-size: 28px;
+    line-height: 36px;
+    color: #023a78; }
+  .homepage .pesquisas .pesquisas-box button {
+    font-family: 'gothamregular';
+    font-size: 12px;
+    line-height: 36px;
+    background: #078bcd;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 0;
+    padding: 0;
+    width: 40%;
+    border-bottom: 3px solid #0566a6; }
+    .homepage .pesquisas .pesquisas-box button:before {
+      content: '>';
+      font-family: 'gothamlight';
+      letter-spacing: 5px; }
+
+.homepage .docentes .docentes-box {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  .homepage .docentes .docentes-box .docente-title {
+    font-family: 'gothamregular';
+    font-size: 20px;
+    line-height: 36px;
+    color: #078bcd;
+    padding-top: 20px; }
+  .homepage .docentes .docentes-box .docentes-list .docente {
+    padding-top: 40px; }
+    .homepage .docentes .docentes-box .docentes-list .docente img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .homepage .docentes .docentes-box .docentes-list .docente .docente-name {
+      font-family: 'GothamBook';
+      font-size: 14px;
+      color: #565656;
+      border-bottom: 1px solid;
+      display: inline;
+      padding-bottom: 2px;
+      line-height: 35px; }
+    .homepage .docentes .docentes-box .docentes-list .docente .docente-value {
+      font-size: 28px;
+      line-height: 36px;
+      color: #023a78; }
+  .homepage .docentes .docentes-box button {
+    font-family: 'gothamregular';
+    font-size: 12px;
+    line-height: 36px;
+    background: #078bcd;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 0;
+    padding: 0;
+    width: 40%;
+    border-bottom: 3px solid #0566a6; }
+    .homepage .docentes .docentes-box button:before {
+      content: '>';
+      font-family: 'gothamlight';
+      letter-spacing: 5px; }
+
+.homepage .nucleos .nucleos-box {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  .homepage .nucleos .nucleos-box .nucleo-title {
+    font-family: 'gothamregular';
+    font-size: 20px;
+    line-height: 36px;
+    color: #078bcd;
+    padding-top: 20px; }
+  .homepage .nucleos .nucleos-box .nucleos-list {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5vw; }
+    .homepage .nucleos .nucleos-box .nucleos-list .nucleo {
+      padding-top: 10px;
+      list-style-image: url("../images/list-style.png"); }
+      .homepage .nucleos .nucleos-box .nucleos-list .nucleo .nucleo-name {
+        font-family: 'GothamBook';
+        font-size: 12px;
+        color: #565656;
+        border-bottom: 1px solid;
+        display: inline;
+        padding-bottom: 2px; }
+  .homepage .nucleos .nucleos-box button {
+    font-family: 'gothamregular';
+    font-size: 12px;
+    line-height: 36px;
+    background: #078bcd;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 0;
+    padding: 0;
+    width: 40%;
+    border-bottom: 3px solid #0566a6; }
+    .homepage .nucleos .nucleos-box button:before {
+      content: '>';
+      font-family: 'gothamlight';
+      letter-spacing: 5px; }
+
+.homepage .estatisticas .estatisticas-box {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  .homepage .estatisticas .estatisticas-box .estatistica-title {
+    font-family: 'gothamregular';
+    font-size: 20px;
+    line-height: 36px;
+    color: #078bcd;
+    padding-top: 20px; }
+  .homepage .estatisticas .estatisticas-box .estatisticas-list .estatistica {
+    width: 170px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 30px;
+    min-height: 170px;
+    border-color: #d7d7d7; }
+    .homepage .estatisticas .estatisticas-box .estatisticas-list .estatistica .estatistica-name {
+      font-family: 'GothamBook';
+      font-size: 16px;
+      color: #078bcd; }
+    .homepage .estatisticas .estatisticas-box .estatisticas-list .estatistica .estatistica-value {
+      font-family: 'gothamregular';
+      font-size: 25px;
+      line-height: 30px;
+      color: #023a78; }
+
 @media screen and (min-width: 1200px) {
   .homepage .banner {
     max-height: 440px;

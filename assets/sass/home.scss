@@ -68,6 +68,209 @@
 			display: none;
 		}
 	}
+	.pesquisas{
+		.pesquisas-box{
+		    text-align: center;
+		    padding-bottom: 30px;
+		    border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+		    width: 85%;
+		    margin-left: auto;
+		    margin-right: auto;
+			.pesquisa-title{
+				font-family: 'gothamregular';				
+			    font-size: 20px;
+			    line-height: 36px;
+			    color: #078bcd;
+			    padding-top: 20px;    
+			}
+			.pesquisas-list{
+				.pesquisa{
+					.pesquisa-name {
+					    font-family: 'GothamBook';						
+					    font-size: 14px;
+					    line-height: 54px;
+					    color: #565656;
+					    text-transform: uppercase;    
+					}
+					.pesquisa-value {
+					    font-size: 28px;
+					    line-height: 36px;
+					    color: #023a78;
+					}					
+				}
+			}
+			button{
+				&:before{
+					content: '>';
+					font-family: 'gothamlight';
+					letter-spacing: 5px;
+				}
+				font-family: 'gothamregular';
+				font-size: 12px;
+				line-height: 36px;
+				background: #078bcd;
+				color: #ffffff;
+				margin-top: 30px;
+				border-radius: 0;
+				padding: 0;
+				width: 40%;
+				border-bottom: 3px solid #0566a6;
+			}
+		}
+	}
+	.docentes{
+		.docentes-box{
+		    text-align: center;
+		    padding-bottom: 30px;
+		    border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+		    width: 85%;
+		    margin-left: auto;
+		    margin-right: auto;
+			.docente-title{
+				font-family: 'gothamregular';				
+			    font-size: 20px;
+			    line-height: 36px;
+			    color: #078bcd;
+			    padding-top: 20px;    
+			}
+			.docentes-list{
+				.docente{
+				    padding-top: 40px;	
+					img{
+					    display: block;
+					    margin-left: auto;
+					    margin-right: auto;						
+					}
+					.docente-name {
+						font-family: 'GothamBook';
+						font-size: 14px;
+						color: #565656;
+						border-bottom: 1px solid;
+						display: inline;
+						padding-bottom: 2px;
+						line-height: 35px;   
+					}
+					.docente-value {
+					    font-size: 28px;
+					    line-height: 36px;
+					    color: #023a78;
+					}					
+				}
+			}
+			button{
+				&:before{
+					content: '>';
+					font-family: 'gothamlight';
+					letter-spacing: 5px;
+				}
+				font-family: 'gothamregular';
+				font-size: 12px;
+				line-height: 36px;
+				background: #078bcd;
+				color: #ffffff;
+				margin-top: 30px;
+				border-radius: 0;
+				padding: 0;
+				width: 40%;
+				border-bottom: 3px solid #0566a6;
+			}
+		}
+	}
+	.nucleos{
+		.nucleos-box{
+		    text-align: center;
+		    padding-bottom: 30px;
+		    border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+		    width: 85%;
+		    margin-left: auto;
+		    margin-right: auto;
+			.nucleo-title{
+				font-family: 'gothamregular';				
+			    font-size: 20px;
+			    line-height: 36px;
+			    color: #078bcd;
+			    padding-top: 20px;    
+			}
+			.nucleos-list{
+				text-align: left;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				padding-left: 5vw;
+
+				.nucleo{
+    				padding-top: 10px;
+					list-style-image: url('../images/list-style.png');
+					.nucleo-name {
+					    font-family: 'GothamBook';
+					    font-size: 12px;
+					    color: #565656;
+					    border-bottom: 1px solid;
+					    display: inline;
+					    padding-bottom: 2px;   
+					}				
+				}
+			}
+			button{
+				&:before{
+					content: '>';
+					font-family: 'gothamlight';
+					letter-spacing: 5px;
+				}
+				font-family: 'gothamregular';
+				font-size: 12px;
+				line-height: 36px;
+				background: #078bcd;
+				color: #ffffff;
+				margin-top: 30px;
+				border-radius: 0;
+				padding: 0;
+				width: 40%;
+				border-bottom: 3px solid #0566a6;
+			}
+		}
+	}
+	.estatisticas{
+		.estatisticas-box{
+		    text-align: center;
+		    padding-bottom: 30px;
+		    border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+		    width: 85%;
+		    margin-left: auto;
+		    margin-right: auto;
+			.estatistica-title{
+				font-family: 'gothamregular';				
+			    font-size: 20px;
+			    line-height: 36px;
+			    color: #078bcd;
+			    padding-top: 20px;    
+			}
+			.estatisticas-list{
+				.estatistica{
+					width: 170px;
+					margin-top: 20px;
+					margin-left: auto;
+					margin-right: auto;
+					border: 1px solid;
+					border-radius: 100px;
+					padding: 30px;
+					min-height: 170px;
+					border-color: #d7d7d7;				
+					.estatistica-name {
+					    font-family: 'GothamBook';
+					    font-size: 16px;
+					    color: #078bcd;   
+					}
+					.estatistica-value {
+						font-family: 'gothamregular';						
+					    font-size: 25px;
+					    line-height: 30px;
+					    color: #023a78;
+					}					
+				}
+			}
+		}
+	}			
 }
 
 @media screen and (min-width:1200px) {
