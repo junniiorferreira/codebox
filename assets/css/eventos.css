@@ -1,0 +1,154 @@
+.eventos {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .eventos .breacumb {
+    display: none; }
+  .eventos .eventos-title {
+    padding-top: 20px;
+    font-family: 'gothambold';
+    font-size: 16px;
+    color: #078bcd;
+    width: 100%;
+    border-top: 1px solid #e4e4e4; }
+  .eventos .eventos-container .eventos-box .pagination {
+    display: block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 40px; }
+    .eventos .eventos-container .eventos-box .pagination .page-item {
+      font-family: 'GothamBook';
+      font-size: 14px;
+      line-height: 30px;
+      color: #adadad; }
+      .eventos .eventos-container .eventos-box .pagination .page-item .page-link {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+        background-color: unset;
+        border: none;
+        padding: 6px 6px;
+        color: #adadad; }
+  .eventos .eventos-container .eventos-box .banner-form {
+    padding-bottom: 40px; }
+    .eventos .eventos-container .eventos-box .banner-form .login-form .login-form-title {
+      font-family: 'GothamBook';
+      font-size: 12px;
+      line-height: 36px;
+      color: #2f2f2f;
+      margin: 0;
+      padding: 0;
+      text-transform: none; }
+    .eventos .eventos-container .eventos-box .banner-form .login-form .form-group {
+      margin-bottom: 0; }
+      .eventos .eventos-container .eventos-box .banner-form .login-form .form-group .form-control {
+        border-radius: 0;
+        width: 85%;
+        height: 32px;
+        font-family: 'GothamBook';
+        font-size: 10px;
+        line-height: 21px;
+        font-weight: 400;
+        float: left; }
+      .eventos .eventos-container .eventos-box .banner-form .login-form .form-group .btn-primary {
+        border-radius: 0;
+        width: 15%;
+        font-family: 'GothamBook';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 0;
+        margin: 0; }
+  .eventos .eventos-container .eventos-box .docentes-list {
+    text-align: left; }
+    .eventos .eventos-container .eventos-box .docentes-list .docente {
+      display: table;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente .docente-info {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 3vw; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente .docente-name {
+        font-family: 'gothambold';
+        font-size: 14px;
+        color: #565656;
+        margin-left: 0; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente .docente-desc {
+        font-family: 'GothamBook';
+        font-size: 12px;
+        color: #565656;
+        margin-left: 0;
+        padding-top: 10px; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente .docente-img-mobile {
+        display: none; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente .docente-img-web {
+        display: inline-table; }
+      .eventos .eventos-container .eventos-box .docentes-list .docente span {
+        display: inline-table; }
+
+@media screen and (min-width: 1200px) {
+  .page .eventos {
+    padding-top: 110px; }
+    .page .eventos .breacumb {
+      font-family: 'GothamBook';
+      font-size: 13px;
+      line-height: 20px;
+      color: #8e8e8e;
+      text-align: right;
+      display: block;
+      padding-right: 2vw; }
+    .page .eventos .eventos-title {
+      display: none; }
+    .page .eventos .eventos-container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+      .page .eventos .eventos-container .eventos-box {
+        display: inline; }
+        .page .eventos .eventos-container .eventos-box .docentes-list {
+          padding: 20px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto; }
+          .page .eventos .eventos-container .eventos-box .docentes-list .docente {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto; }
+          .page .eventos .eventos-container .eventos-box .docentes-list .docente-info {
+            padding-left: 1vw; }
+        .page .eventos .eventos-container .eventos-box .eventos-box-header {
+          width: 30%;
+          display: inline-grid;
+          vertical-align: top; }
+        .page .eventos .eventos-container .eventos-box .eventos-box-content {
+          width: 65%;
+          display: inline-block;
+          border-left: 1px solid #dddddd;
+          margin-bottom: 40px; }
+        .page .eventos .eventos-container .eventos-box .eventos-box-title {
+          padding-left: 2vw;
+          font-size: 13px;
+          line-height: 40px; }
+        .page .eventos .eventos-container .eventos-box .eventos-list {
+          width: 95%; }
+          .page .eventos .eventos-container .eventos-box .eventos-list .eventos-result .result-info {
+            font-size: 14px; }
+          .page .eventos .eventos-container .eventos-box .eventos-list .eventos-result .result-label {
+            font-size: 12px; }
+        .page .eventos .eventos-container .eventos-box .banner-form {
+          padding-right: 1vw; }
+        .page .eventos .eventos-container .eventos-box .pagination {
+          display: inline-block;
+          padding-top: 20px;
+          padding-bottom: 0px; } }

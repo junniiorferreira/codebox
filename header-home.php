@@ -11,7 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/search.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">		
+	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/eventos.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes.css">			
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal-default-theme.css">	
