@@ -10,9 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/search.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/search.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">		
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/remodal.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/remodal.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal-default-theme.css">	
 	<script src="assets/js/jquery-1.12.4.js"></script>
 </head>
