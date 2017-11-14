@@ -20,4 +20,7 @@ $(function(){
 	$(".btn-login").click(function(){
 		$('[data-remodal-id=login]').remodal();
 	});
+	$( "#tabs" ).tabs({
+		collapsible: true
+	});
 });

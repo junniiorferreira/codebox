@@ -1,0 +1,242 @@
+.pessoas-info{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;	
+    .breacumb{
+    	display: none;
+    }
+	.pessoas-info-title {
+	    font-size: 16px;
+	    color: #078bcd;	
+	    font-family: 'gothambold';
+	    line-height: 36px;
+	    width: 100%;
+	    border-top: 1px solid #e4e4e4;
+	    padding-left: 5vw;
+	}
+	.pessoas-info-container{
+	    padding-top: 20px;
+	    display: inline;    
+	    .pessoas-info-box-header{	    	
+		    .bio-box{
+			    margin-left: auto;
+			    margin-right: auto;
+			    width: 100%;
+			    text-align: center;
+				.bio-email{
+				    display: block;
+				    margin-left: auto;
+				    margin-right: auto;
+					padding-top: 10px;			    
+					span{
+						font-family: 'GothamBook';
+					    font-size: 12px;
+					    line-height: 16px;
+					    color: #636363;      		
+					}				
+				}
+				.bio-site{
+				    display: block;
+				    margin-left: auto;
+				    margin-right: auto;
+				    padding-top: 10px;
+			        padding-bottom: 20px;
+					span{
+						font-family: 'GothamBook';
+					    font-size: 12px;
+					    line-height: 16px;
+					    color: #636363;         			
+					}				
+				}			
+				.bio-name {
+					font-family: 'gothambold';
+				    font-size: 16px;
+				    color: #0096d6;
+				    padding-top: 10px;
+				}
+				.bio-status {
+					font-family: 'GothamBook';
+				    font-size: 12px;
+				    color: #9f9f9f;
+				    padding-top: 5px;
+				}			  	
+		    }	    	
+	    }
+	    .pessoas-info-box-content{
+			.pessoas-info-box{
+				padding-top: 0;
+				padding: 30px;
+    			padding-bottom: 0;				
+				&:last-child{
+					padding-bottom: 75px;					
+				}			
+				.pessoas-info-box-title {
+					font-family: 'gothamregular';
+					font-size: 10px;
+					line-height: 30px;
+					color: #078bcd;
+					text-transform: uppercase;
+					background: #f3f3f3;
+					padding-left: 5vw;
+				}
+				.ui-tabs{
+					padding-top: 20px;
+					.ui-tabs-nav{
+					    display: inline;
+					    .ui-tabs-tab{
+					    	display: inline-block;
+							.ui-tabs-anchor {
+								font-family: 'GothamBook';
+							    font-size: 12px;
+							    line-height: 20px;
+							    color: #636363;
+							    padding-right: 8px;
+							    border-right: 1px solid #d1d1d1;
+							    margin-left: 8px;
+							    &:active{
+							    	font-family: 'gothamregular';
+							    }
+							}
+					    }	
+					}
+					.ui-tabs-panel {
+					    margin-top: 20px;
+					    .tab-title{
+					    	font-family: 'gothambold';
+						    font-size: 12px;
+						    line-height: 16px;
+						    color: #0096d6;
+						    text-transform: uppercase;			    	
+					    }
+					    .list-box{
+					        padding-top: 20px;	
+						    .item-list{
+						    	padding-bottom: 30px;
+						    	.item-title{
+						    		font-family: 'gothambold';
+									font-size: 12px;
+									line-height: 16px;
+									color: #636363;
+						    	}
+								.item-content {
+									font-family: 'GothamBook';
+								    font-size: 12px;
+								    line-height: 16px;
+								    color: #636363;
+								    padding-top: 10px;    
+								}					    	
+						    }					    	
+					    }
+					}					
+				}
+				.pessoas-info-list{
+					width: 90%;
+					margin-left: auto;
+					margin-right: auto;				
+					.pessoas-info-result{
+						list-style: none;
+						&:first-child{
+							padding-top: 20px;					
+						}												
+						.result-info {
+							font-family: 'GothamBook';						
+						    font-size: 12px;
+						    line-height: 15px;
+						    color: #686868;
+						}
+						.result-label {
+							font-family: 'GothamBook';						
+						    font-size: 10px;
+						    line-height: 56px;
+						    color: #8a8a8a;
+						}					
+					}
+				}
+			}	    
+	    }
+	}	
+}
+@media screen and (min-width:1200px) {	
+	.page{
+		.pessoas-info {
+		    padding-top: 110px;
+		    .breacumb {
+				font-family: 'GothamBook';
+				font-size: 13px;
+				line-height: 20px;
+				color: #8e8e8e;
+				text-align: right;
+				display: block;
+			    padding-right: 2vw;	
+			}			
+			.pessoas-info-title{
+				display: none;			
+			}
+			.pessoas-info-container{
+			    .pessoas-info-box-header{
+					width: 20%;
+					display: inline-grid;
+					vertical-align: top;
+				}
+			    .pessoas-info-box-content{
+					width: 75%;
+					display: inline-block;
+					border-left: 1px solid #dddddd;
+					margin-bottom: 40px;						
+					.pessoas-info-box{
+						.ui-tabs{
+						    padding: 20px;
+							.ui-tabs-nav{
+								position: absolute;
+								.ui-tabs-tab{
+									.ui-tabs-anchor{
+									    font-size: 13px;
+									    line-height: 16px;
+									    border-right: none;
+									    margin-left: 0;
+									    padding-right: 0;
+									    padding: 10px 20px;
+									    &:focus{
+										    outline: none;
+										    outline-offset: 0;
+										    border: 1px solid #dcdcdc;
+										    border-bottom: 1px solid #ffffff;									    	
+									    }
+									}
+								} 
+							}
+							.ui-tabs-panel{
+							    margin-top: 28px;
+							    padding: 15px;
+							    padding-top: 0;
+							    border: 1px solid #dcdcdc;	
+							    .tab-title{
+    								padding-top: 20px;							    	
+							    }					
+							} 
+						} 
+						.pessoas-info-box-title{
+							padding-left: 2vw;							
+						}
+						.pessoas-info-list{
+	    					width: 95%;
+	    					.pessoas-info-result{
+								.result-info{
+								    font-size: 12px;
+								    line-height: 20px;							
+								}
+								.result-label{
+									font-size: 12px;
+								}    						
+	    					}					
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width:1360px) and (max-width: 1400px) {}
+@media screen and (min-width:1400px) and (max-width: 1599px) {}
+@media screen and (min-width:1600px) and (max-width: 1919px) {}
+@media screen and (min-width:1920px) {}

@@ -5,15 +5,16 @@
 	<title>FGV DRP</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/search.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pessoas-info.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/eventos.css">	
-	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes.css">			
+	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal-default-theme.css">	
