@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/pessoas-info.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/pesquisas.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pesquisas-info.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/eventos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
