@@ -284,9 +284,9 @@
 		    z-index: 1;
 		    border-bottom: 5px solid #078bcd;
 		    .banner-box{
-		    	padding-top: 120px;
-			    width: 70%;
-			    margin-left: 11vw;		    	
+			    padding-top: 120px;
+			    width: 90%;
+			    margin-left: 2vw;		    	
 		    	.banner-form{
 					display: table;	
 					.login-form{
@@ -330,7 +330,7 @@
 		}
 		.home-row {
 			display: flex;
-		    width: 90%;
+		    width: 100%;
 		    margin-left: auto;
 		    margin-right: auto;
 		    border-bottom: 1px solid #eeeeee;		
@@ -451,7 +451,7 @@
 			    width: 100%;
 			    .estatistica-title{
 					text-align: left;
-					padding-left: 7vw;			    	
+					padding-left: 3vw;			    	
 			    }			
 				.estatisticas-list {
 				    display: inline-flex;
@@ -467,7 +467,83 @@
 		}
 	}	
 }
-@media screen and (min-width:1360px) and (max-width: 1400px) {}
-@media screen and (min-width:1400px) and (max-width: 1599px) {}
-@media screen and (min-width:1600px) and (max-width: 1919px) {}
-@media screen and (min-width:1920px) {}
+@media screen and (min-width:1360px) and (max-width: 1400px) {
+	.homepage{
+		.banner{
+			.banner-box{
+			    width: 85%;
+			    margin-left: 7vw;
+			}
+		}
+		.home-row{
+    		width: 87%;			
+		}
+		.estatisticas{
+			.estatisticas-box{
+			    .estatistica-title{
+    				padding-left: 8vw;
+			    }
+			}
+		}	
+	}
+}
+@media screen and (min-width:1400px) and (max-width: 1599px) {
+	.homepage{
+		.banner{
+			.banner-box{
+			    width: 80%;
+			    margin-left: 10vw;
+			}
+		}
+		.home-row{
+    		width: 80%;			
+		}
+		.estatisticas{
+			.estatisticas-box{
+			    .estatistica-title{
+    				padding-left: 12vw;
+			    }
+			}
+		}				
+	}	
+}
+@media screen and (min-width:1600px) and (max-width: 1919px) {
+	.homepage{
+		.banner{
+			.banner-box{
+				width: 74%;
+				margin-left: 14vw;
+			}
+		}
+		.home-row{
+    		width: 76%;			
+		}
+		.estatisticas{
+			.estatisticas-box{
+			    .estatistica-title{
+    				padding-left: 14vw;
+			    }
+			}
+		}				
+	}	
+}
+@media screen and (min-width:1920px) {
+	.homepage{
+		.banner{
+			.banner-box{
+				width: 60%;
+				margin-left: 19vw;
+			}
+		}
+		.home-row{
+    		width: 63%;			
+		}
+		.estatisticas{
+			.estatisticas-box{
+			    .estatistica-title{
+    				padding-left: 20vw;
+			    }
+			}
+		}				
+	}	
+}

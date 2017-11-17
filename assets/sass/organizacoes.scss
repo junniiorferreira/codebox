@@ -123,6 +123,7 @@
 	.page{
 		.organizacoes {
 		    padding-top: 110px;
+		    width: 98%;
 		    .breacumb {
 				font-family: 'GothamBook';
 				font-size: 13px;
@@ -136,7 +137,7 @@
 				display: none;				
 			}			
 			.organizacoes-container{
-				width: 90%;
+				width: 100%;
 				margin-left: auto;
 				margin-right: auto;				
 				.organizacoes-box{
@@ -157,12 +158,12 @@
 						}
 					}				    
 					.organizacoes-box-header {
-					    width: 30%;
+					    width: 22%;
 					    display: inline-grid;
 					    vertical-align: top;
 					}
 					.organizacoes-box-content {
-						width: 65%;
+						width: 75%;
 						display: inline-block;
 						border-left: 1px solid #dddddd;
 						margin-bottom: 40px;
@@ -196,7 +197,71 @@
 		}
 	}
 }
-@media screen and (min-width:1360px) and (max-width: 1400px) {}
-@media screen and (min-width:1400px) and (max-width: 1599px) {}
-@media screen and (min-width:1600px) and (max-width: 1919px) {}
-@media screen and (min-width:1920px) {}
+@media screen and (min-width:1360px) and (max-width: 1400px) {
+	.page{
+		.organizacoes {		
+			width:85%;
+			.organizacoes-container{
+				.organizacoes-box{
+					.organizacoes-box-header{
+						width: 23%;
+					}
+				}
+			}
+		}
+	}    
+}
+@media screen and (min-width:1400px) and (max-width: 1599px) {
+	.page{
+		.organizacoes {		
+			width:80%;
+			.organizacoes-container{
+				.organizacoes-box{
+					.organizacoes-box-header{
+						width: 24%;
+					}
+				}
+			}
+		}
+	}  	
+}
+@media screen and (min-width:1600px) and (max-width: 1919px) {
+	.page{
+		.organizacoes {		
+			width:75%;
+			.breacumb{
+    			padding-right: 2vw;
+			}
+			.organizacoes-container{
+				.organizacoes-box{
+					.organizacoes-box-header{
+						width: 25%;
+					}
+					.organizacoes-box-content{
+						width: 70%;
+					}					
+				}
+			}
+		}
+	}	
+}
+@media screen and (min-width:1920px) {
+	.page{
+		.organizacoes {		
+			width:60%;
+			.breacumb{
+    			padding-right: 0;
+			}
+			.organizacoes-container{
+				.organizacoes-box{
+					.organizacoes-box-header{
+						width: 25%;
+					}
+					.organizacoes-box-content{
+						width: 70%;
+					}					
+				}
+			}
+		}
+	}	
+}

@@ -34,11 +34,11 @@
       </span>
     </div><!-- /input-group -->	
 	<ul class="menu-list">
-		<li>Início<p>Bem-vindo a Rede</p></li>
-		<li>Pessoas<p>Saiba mais sobre os membros</p></li>
-		<li>Organizações<p>Conheça as organizações participantes</p></li>
-		<li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li>
-		<li>Eventos<p>O que acontece na FGV</p></li>
+		<a href="/"><li>Início<p>Bem-vindo a Rede</p></li></a>
+		<a href="/pessoas"><li>Pessoas<p>Saiba mais sobre os membros</p></li></a>
+		<a href="/organizacoes"><li>Organizações<p>Conheça as organizações participantes</p></li></a>
+		<a href="/pesquisas"><li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li></a>
+		<a href="/eventos"><li>Eventos<p>O que acontece na FGV</p></li></a>
 	</ul>
 </div>
 <div class="remodal-bg">
@@ -91,11 +91,11 @@
 		</div>
 		<div class="menu-principal">
 			<ul class="menu-list">
-				<li>Início<p>Bem-vindo a Rede</p></li>
-				<li>Pessoas<p>Saiba mais sobre os membros</p></li>
-				<li>Organizações<p>Conheça as organizações participantes</p></li>
-				<li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li>
-				<li>Eventos<p>O que acontece na FGV</p></li>
+				<a href="/"><li>Início<p>Bem-vindo a Rede</p></li></a>
+				<a href="/pessoas"><li>Pessoas<p>Saiba mais sobre os membros</p></li></a>
+				<a href="/organizacoes"><li>Organizações<p>Conheça as organizações participantes</p></li></a>
+				<a href="/pesquisas"><li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li></a>
+				<a href="/eventos"><li>Eventos<p>O que acontece na FGV</p></li></a>
 			</ul>		
 		</div>	
 	</div>

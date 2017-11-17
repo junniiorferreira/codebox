@@ -229,8 +229,8 @@
     border-bottom: 5px solid #078bcd; }
     .homepage .banner .banner-box {
       padding-top: 120px;
-      width: 70%;
-      margin-left: 11vw; }
+      width: 90%;
+      margin-left: 2vw; }
       .homepage .banner .banner-box .banner-form {
         display: table; }
         .homepage .banner .banner-box .banner-form .login-form {
@@ -261,7 +261,7 @@
       display: none; }
   .homepage .home-row {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #eeeeee; }
@@ -351,9 +351,45 @@
     width: 100%; }
     .homepage .estatisticas .estatisticas-box .estatistica-title {
       text-align: left;
-      padding-left: 7vw; }
+      padding-left: 3vw; }
     .homepage .estatisticas .estatisticas-box .estatisticas-list {
       display: inline-flex; }
       .homepage .estatisticas .estatisticas-box .estatisticas-list li .estatistica {
         margin-left: 1vw;
         margin-right: 1vw; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .homepage .banner .banner-box {
+    width: 85%;
+    margin-left: 7vw; }
+  .homepage .home-row {
+    width: 87%; }
+  .homepage .estatisticas .estatisticas-box .estatistica-title {
+    padding-left: 8vw; } }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .homepage .banner .banner-box {
+    width: 80%;
+    margin-left: 10vw; }
+  .homepage .home-row {
+    width: 80%; }
+  .homepage .estatisticas .estatisticas-box .estatistica-title {
+    padding-left: 12vw; } }
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .homepage .banner .banner-box {
+    width: 74%;
+    margin-left: 14vw; }
+  .homepage .home-row {
+    width: 76%; }
+  .homepage .estatisticas .estatisticas-box .estatistica-title {
+    padding-left: 14vw; } }
+
+@media screen and (min-width: 1920px) {
+  .homepage .banner .banner-box {
+    width: 60%;
+    margin-left: 19vw; }
+  .homepage .home-row {
+    width: 63%; }
+  .homepage .estatisticas .estatisticas-box .estatistica-title {
+    padding-left: 20vw; } }
