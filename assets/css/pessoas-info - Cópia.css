@@ -125,8 +125,7 @@
 
 @media screen and (min-width: 1200px) {
   .page .pessoas-info {
-    padding-top: 110px;
-    width: 99%; }
+    padding-top: 110px; }
     .page .pessoas-info .breacumb {
       font-family: 'GothamBook';
       font-size: 13px;
@@ -149,28 +148,21 @@
       .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs {
         padding: 20px; }
         .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav {
-          /* position: absolute; */
-          width: 100%;
-          /* background: rebeccapurple; */
-          display: inline-flex; }
+          position: absolute; }
           .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
             font-size: 13px;
             line-height: 16px;
             border-right: none;
             margin-left: 0;
             padding-right: 0;
-            padding: 10px 21px;
-            outline: none;
-            outline-offset: 0; }
+            padding: 10px 20px; }
             .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor:focus {
-              outline: none; }
-          .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .active {
-            outline: none;
-            outline-offset: 0;
-            border: 1px solid #dcdcdc;
-            border-bottom: 3px solid #ffffff; }
+              outline: none;
+              outline-offset: 0;
+              border: 1px solid #dcdcdc;
+              border-bottom: 1px solid #ffffff; }
         .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-panel {
-          margin-top: 10px;
+          margin-top: 28px;
           padding: 15px;
           padding-top: 0;
           border: 1px solid #dcdcdc; }
@@ -185,19 +177,3 @@
           line-height: 20px; }
         .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .pessoas-info-list .pessoas-info-result .result-label {
           font-size: 12px; } }
-
-@media screen and (min-width: 1360px) and (max-width: 1400px) {
-  .page .pessoas-info {
-    width: 85%; } }
-
-@media screen and (min-width: 1400px) and (max-width: 1599px) {
-  .page .pessoas-info {
-    width: 84%; } }
-
-@media screen and (min-width: 1600px) and (max-width: 1919px) {
-  .page .pessoas-info {
-    width: 70%; } }
-
-@media screen and (min-width: 1920px) {
-  .page .pessoas-info {
-    width: 62%; } }

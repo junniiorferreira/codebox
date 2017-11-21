@@ -97,7 +97,8 @@
 
 @media screen and (min-width: 1200px) {
   .page .pessoas {
-    padding-top: 110px; }
+    padding-top: 110px;
+    width: 98%; }
     .page .pessoas .breacumb {
       font-family: 'GothamBook';
       font-size: 13px;
@@ -105,11 +106,11 @@
       color: #8e8e8e;
       text-align: right;
       display: block;
-      padding-right: 2vw; }
+      padding-right: 5vw; }
     .page .pessoas .pessoas-title {
       display: none; }
     .page .pessoas .pessoas-container {
-      width: 90%;
+      width: 100%;
       margin-left: auto;
       margin-right: auto; }
       .page .pessoas .pessoas-container .pessoas-box {
@@ -127,11 +128,11 @@
           .page .pessoas .pessoas-container .pessoas-box .docentes-list .docente-info {
             padding-left: 1vw; }
         .page .pessoas .pessoas-container .pessoas-box .pessoas-box-header {
-          width: 30%;
+          width: 22%;
           display: inline-grid;
           vertical-align: top; }
         .page .pessoas .pessoas-container .pessoas-box .pessoas-box-content {
-          width: 65%;
+          width: 75%;
           display: inline-block;
           border-left: 1px solid #dddddd;
           margin-bottom: 40px; }
@@ -147,7 +148,46 @@
             font-size: 12px; }
         .page .pessoas .pessoas-container .pessoas-box .banner-form {
           padding-right: 1vw; }
+          .page .pessoas .pessoas-container .pessoas-box .banner-form .form-group .form-control {
+            background: url(../images/ico-select.png) no-repeat right #e9e9e9;
+            background-position-x: 16vw;
+            border: 1px solid #cccccc;
+            -webkit-appearance: none;
+            -moz-aparence: none;
+            -o-aparence: none; }
         .page .pessoas .pessoas-container .pessoas-box .pagination {
           display: inline-block;
           padding-top: 20px;
           padding-bottom: 0px; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .page .pessoas {
+    width: 85%; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-header {
+      width: 23%; } }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .page .pessoas {
+    width: 80%; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-header {
+      width: 24%; } }
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .page .pessoas {
+    width: 75%; }
+    .page .pessoas .breacumb {
+      padding-right: 2vw; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-header {
+      width: 25%; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-content {
+      width: 70%; } }
+
+@media screen and (min-width: 1920px) {
+  .page .pessoas {
+    width: 60%; }
+    .page .pessoas .breacumb {
+      padding-right: 0; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-header {
+      width: 25%; }
+    .page .pessoas .pessoas-container .pessoas-box .pessoas-box-content {
+      width: 70%; } }

@@ -20,7 +20,9 @@ $(function(){
 	$(".btn-login").click(function(){
 		$('[data-remodal-id=login]').remodal();
 	});
-	$( "#tabs" ).tabs({
-		collapsible: true
-	});
+	$( "#tabs" ).tabs();
+	$(".ui-tabs-anchor").click(function() {
+		$(".ui-tabs-anchor").removeClass("active");
+		$(this).addClass("active");
+	});	
 });

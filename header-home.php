@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal-default-theme.css">	
 	<script src="assets/js/jquery-1.12.4.js"></script>
 </head>
-<body>
+<body class="animated fadeIn">
 <div class="mobile-menu">
 	<div class="btn-back">
 		<i class="fa fa-long-arrow-left" aria-hidden="true"></i>

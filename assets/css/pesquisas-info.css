@@ -1,0 +1,194 @@
+.pesquisas-info {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  .pesquisas-info .breacumb {
+    display: none; }
+  .pesquisas-info .pesquisas-info-title {
+    font-size: 16px;
+    color: #078bcd;
+    font-family: 'gothambold';
+    line-height: 36px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4; }
+  .pesquisas-info .pesquisas-info-container {
+    padding-top: 20px;
+    display: inline; }
+    .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-site {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-site span {
+        font-family: 'GothamBook';
+        font-size: 12px;
+        line-height: 16px;
+        color: #636363; }
+    .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-name {
+      font-family: 'gothambold';
+      font-size: 16px;
+      color: #6e6f6f;
+      padding-top: 10px; }
+    .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-status {
+      font-family: 'GothamBook';
+      font-size: 12px;
+      color: #9f9f9f;
+      padding-top: 5px; }
+    .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box {
+      padding-top: 0;
+      padding-bottom: 0; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box:last-child {
+        padding-bottom: 75px; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-box-title {
+        font-family: 'gothamregular';
+        font-size: 10px;
+        line-height: 30px;
+        color: #078bcd;
+        text-transform: uppercase;
+        background: #f3f3f3;
+        padding-left: 5vw; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav {
+        display: inline; }
+        .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab {
+          display: inline-block; }
+          .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
+            font-family: 'GothamBook';
+            font-size: 12px;
+            line-height: 20px;
+            color: #636363;
+            padding-right: 8px;
+            border-right: 1px solid #d1d1d1;
+            margin-left: 8px; }
+            .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor:active {
+              font-family: 'gothamregular'; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel {
+        margin-top: 20px; }
+        .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .tab-title {
+          font-family: 'gothambold';
+          font-size: 12px;
+          line-height: 16px;
+          color: #0096d6;
+          text-transform: uppercase; }
+        .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .list-box {
+          padding-top: 20px; }
+          .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .list-box .item-list {
+            padding-bottom: 30px;
+            border-top: 1px solid #dedede;
+            padding-top: 30px; }
+            .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .list-box .item-list:first-child {
+              border-top: none;
+              padding-top: 10px; }
+            .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .list-box .item-list .item-title {
+              font-family: 'gothambold';
+              font-size: 12px;
+              line-height: 16px;
+              color: #0096d6;
+              text-transform: uppercase; }
+            .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .list-box .item-list .item-content {
+              font-family: 'GothamBook';
+              font-size: 12px;
+              line-height: 16px;
+              color: #636363;
+              padding-top: 10px; }
+      .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; }
+        .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result {
+          list-style: none; }
+          .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result:first-child {
+            padding-top: 20px; }
+          .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-info {
+            font-family: 'GothamBook';
+            font-size: 12px;
+            line-height: 15px;
+            color: #686868; }
+          .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-label {
+            font-family: 'GothamBook';
+            font-size: 10px;
+            line-height: 56px;
+            color: #8a8a8a; }
+
+@media screen and (min-width: 1200px) {
+  .page .pesquisas-info {
+    padding-top: 110px;
+    width: 98%; }
+    .page .pesquisas-info .breacumb {
+      font-family: 'GothamBook';
+      font-size: 13px;
+      line-height: 20px;
+      color: #8e8e8e;
+      text-align: right;
+      display: block; }
+    .page .pesquisas-info .pesquisas-info-title {
+      display: none; }
+    .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-header {
+      width: 20%;
+      display: inline-grid;
+      vertical-align: top; }
+    .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content {
+      display: inline;
+      margin-bottom: 40px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-site {
+        text-align: right;
+        padding-top: 25px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-name {
+        padding-top: 50px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-status {
+        padding-top: 25px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav {
+        /* position: absolute; */
+        width: 100%;
+        /* background: rebeccapurple; */
+        display: inline-flex; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
+          font-size: 13px;
+          line-height: 16px;
+          border-right: none;
+          margin-left: 0;
+          padding-right: 0;
+          padding: 10px 21px;
+          outline: none;
+          outline-offset: 0; }
+          .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor:focus {
+            outline: none; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .active {
+          outline: none;
+          outline-offset: 0;
+          border: 1px solid #dcdcdc;
+          border-bottom: 3px solid #ffffff; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel {
+        margin-top: 10px;
+        padding: 15px;
+        padding-top: 0;
+        border: 1px solid #dcdcdc; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .tab-title {
+          padding-top: 20px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-box-title {
+        padding-left: 2vw;
+        margin-bottom: 30px; }
+      .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list {
+        width: 95%; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-info {
+          font-size: 12px;
+          line-height: 20px; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-label {
+          font-size: 12px; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .page .pesquisas-info {
+    width: 86%; } }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .page .pesquisas-info {
+    width: 80%; } }
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .page .pesquisas-info {
+    width: 73%; } }
+
+@media screen and (min-width: 1920px) {
+  .page .pesquisas-info {
+    width: 60%; } }

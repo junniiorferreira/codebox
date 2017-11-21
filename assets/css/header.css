@@ -17,6 +17,10 @@
     color: #ffffffff;
     font-size: 20px;
     padding-bottom: 25px; }
+  .mobile-menu .input-group .ico-web {
+    display: none; }
+  .mobile-menu .input-group .ico-mobile {
+    display: inline; }
   .mobile-menu .input-group .form-control {
     font-family: 'GothamBook', 'FontAwesome';
     border-radius: 0;
@@ -142,8 +146,36 @@
       text-align: right; }
     .login-box .btn-search {
       text-align: right;
-      margin-right: 15%;
+      margin-right: 1vw;
       padding-left: 1vw; }
+  .login-form .login-form-title {
+    font-size: 20px;
+    line-height: 36px; }
+  .login-form .form-check {
+    font-size: 12px;
+    line-height: 36px; }
+    .login-form .form-check label {
+      font-weight: 600; }
+    .login-form .form-check input {
+      vertical-align: text-bottom; }
+    .login-form .form-check a {
+      font-weight: 600; }
+  .login-form .form-group .ico-web {
+    display: inline; }
+  .login-form .form-group .ico-mobile {
+    display: none; }
+  .login-form .form-group .form-control {
+    font-size: 14px;
+    line-height: 46px;
+    height: 46px;
+    border: 2px solid #cccccc;
+    border-left: none; }
+  .login-form .form-group .btn-primary {
+    font-size: 20px;
+    line-height: 36px; }
+  .login-form .form-group p {
+    font-size: 16px;
+    line-height: 36px; }
   .header {
     height: 75px;
     display: table;
@@ -190,18 +222,26 @@
           color: #ffffff; } }
 
 @media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .login-box .btn-search {
+    margin-right: 7vw; }
   .header .menu-logo .logo-web {
     padding-left: 5vw; } }
 
 @media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .login-box .btn-search {
+    margin-right: 10vw; }
   .header .menu-logo .logo-web {
     padding-left: 8vw; } }
 
 @media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .login-box .btn-search {
+    margin-right: 13.5vw; }
   .header .menu-logo .logo-web {
     padding-left: 10vw; } }
 
 @media screen and (min-width: 1920px) {
+  .login-box .btn-search {
+    margin-right: 20vw; }
   .header .menu-logo .logo-web {
     padding-left: 10vw;
     margin-right: 2vw; } }

@@ -14,14 +14,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/pessoas.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/pessoas-info.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/pesquisas.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pesquisas-info.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/eventos.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/eventos-info.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/organizacoes-info.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/remodal-default-theme.css">	
 	<script src="assets/js/jquery-1.12.4.js"></script>
 </head>
-<body>
+<body class="animated fadeIn">
 <div class="mobile-menu">
 	<div class="btn-back">
 		<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
@@ -33,11 +36,11 @@
       </span>
     </div><!-- /input-group -->	
 	<ul class="menu-list">
-		<li>Início<p>Bem-vindo a Rede</p></li>
-		<li>Pessoas<p>Saiba mais sobre os membros</p></li>
-		<li>Organizações<p>Conheça as organizações participantes</p></li>
-		<li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li>
-		<li>Eventos<p>O que acontece na FGV</p></li>
+		<a href="/"><li>Início<p>Bem-vindo a Rede</p></li></a>
+		<a href="/pessoas"><li>Pessoas<p>Saiba mais sobre os membros</p></li></a>
+		<a href="/organizacoes"><li>Organizações<p>Conheça as organizações participantes</p></li></a>
+		<a href="/pesquisas"><li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li></a>
+		<a href="/eventos"><li>Eventos<p>O que acontece na FGV</p></li></a>
 	</ul>
 </div>
 <div class="remodal-bg">
@@ -49,10 +52,10 @@
 					<label>Entre com o Login</label>
 				</div>
 				<div class="form-group">
-					<img src="assets/images/ico-login-user.png"><input class="form-control" name="email" type="email" placeholder="e-mail"  required/>						
+					<img  class="ico-web" src="assets/images/ico-login-user-web.png"><img class="ico-mobile" src="assets/images/ico-login-user.png"><input class="form-control" name="email" type="email" placeholder="e-mail"  required/>						
 				</div>
 				<div class="form-group">
-					<img src="assets/images/ico-login-pass.png"><input class="form-control" name="senha" type="password" id="senha" placeholder="senha" />
+					<img class="ico-web" src="assets/images/ico-login-pass-web.png"><img class="ico-mobile" src="assets/images/ico-login-pass.png"><input class="form-control" name="senha" type="password" id="senha" placeholder="senha" />
 				</div>
 				<div class="form-check">
 					<label><input type="checkbox" class="form-check-input">Manter conectado</label>
@@ -90,11 +93,11 @@
 		</div>
 		<div class="menu-principal">
 			<ul class="menu-list">
-				<li>Início<p>Bem-vindo a Rede</p></li>
-				<li>Pessoas<p>Saiba mais sobre os membros</p></li>
-				<li>Organizações<p>Conheça as organizações participantes</p></li>
-				<li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li>
-				<li>Eventos<p>O que acontece na FGV</p></li>
+				<a href="/"><li>Início<p>Bem-vindo a Rede</p></li></a>
+				<a href="/pessoas"><li>Pessoas<p>Saiba mais sobre os membros</p></li></a>
+				<a href="/organizacoes"><li>Organizações<p>Conheça as organizações participantes</p></li></a>
+				<a href="/pesquisas"><li>Pesquisas e Projetos<p>Projetos bem sucedidos</p></li></a>
+				<a href="/eventos"><li>Eventos<p>O que acontece na FGV</p></li></a>
 			</ul>		
 		</div>	
 	</div>

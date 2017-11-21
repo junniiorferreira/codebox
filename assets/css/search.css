@@ -46,7 +46,8 @@
 
 @media screen and (min-width: 1200px) {
   .page .search {
-    padding-top: 110px; }
+    padding-top: 110px;
+    width: 98%; }
     .page .search .breacumb {
       font-family: 'GothamBook';
       font-size: 13px;
@@ -67,3 +68,19 @@
         font-size: 14px; }
       .page .search .search-container .search-box .search-list .search-result .result-label {
         font-size: 12px; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .page .search {
+    width: 86%; } }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .page .search {
+    width: 81%; } }
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .page .search {
+    width: 73%; } }
+
+@media screen and (min-width: 1920px) {
+  .page .search {
+    width: 60%; } }
