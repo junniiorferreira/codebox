@@ -148,6 +148,13 @@
             font-size: 12px; }
         .page .pessoas .pessoas-container .pessoas-box .banner-form {
           padding-right: 1vw; }
+          .page .pessoas .pessoas-container .pessoas-box .banner-form .form-group .form-control {
+            background: url(../images/ico-select.png) no-repeat right #e9e9e9;
+            background-position-x: 16vw;
+            border: 1px solid #cccccc;
+            -webkit-appearance: none;
+            -moz-aparence: none;
+            -o-aparence: none; }
         .page .pessoas .pessoas-container .pessoas-box .pagination {
           display: inline-block;
           padding-top: 20px;

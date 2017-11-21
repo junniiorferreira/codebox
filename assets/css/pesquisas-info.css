@@ -113,7 +113,8 @@
 
 @media screen and (min-width: 1200px) {
   .page .pesquisas-info {
-    padding-top: 110px; }
+    padding-top: 110px;
+    width: 98%; }
     .page .pesquisas-info .breacumb {
       font-family: 'GothamBook';
       font-size: 13px;
@@ -128,7 +129,7 @@
       display: inline-grid;
       vertical-align: top; }
     .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content {
-      display: inline-block;
+      display: inline;
       margin-bottom: 40px; }
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-site {
         text-align: right;
@@ -138,28 +139,36 @@
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .bio-status {
         padding-top: 25px; }
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav {
-        position: absolute; }
+        /* position: absolute; */
+        width: 100%;
+        /* background: rebeccapurple; */
+        display: inline-flex; }
         .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
           font-size: 13px;
           line-height: 16px;
           border-right: none;
           margin-left: 0;
           padding-right: 0;
-          padding: 10px 20px; }
+          padding: 10px 21px;
+          outline: none;
+          outline-offset: 0; }
           .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor:focus {
-            outline: none;
-            outline-offset: 0;
-            border: 1px solid #dcdcdc;
-            border-bottom: 1px solid #ffffff; }
+            outline: none; }
+        .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .active {
+          outline: none;
+          outline-offset: 0;
+          border: 1px solid #dcdcdc;
+          border-bottom: 3px solid #ffffff; }
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel {
-        margin-top: 28px;
+        margin-top: 10px;
         padding: 15px;
         padding-top: 0;
         border: 1px solid #dcdcdc; }
         .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .ui-tabs .ui-tabs-panel .tab-title {
           padding-top: 20px; }
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-box-title {
-        padding-left: 2vw; }
+        padding-left: 2vw;
+        margin-bottom: 30px; }
       .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list {
         width: 95%; }
         .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-info {
@@ -167,3 +176,19 @@
           line-height: 20px; }
         .page .pesquisas-info .pesquisas-info-container .pesquisas-info-box-content .pesquisas-info-box .pesquisas-info-list .pesquisas-info-result .result-label {
           font-size: 12px; } }
+
+@media screen and (min-width: 1360px) and (max-width: 1400px) {
+  .page .pesquisas-info {
+    width: 86%; } }
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .page .pesquisas-info {
+    width: 80%; } }
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .page .pesquisas-info {
+    width: 73%; } }
+
+@media screen and (min-width: 1920px) {
+  .page .pesquisas-info {
+    width: 60%; } }

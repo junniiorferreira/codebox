@@ -14,7 +14,7 @@
 					<p class="pesquisas-info-box-title">Informações</p>
 					<div id="tabs">
 						<ul class="tab-list">
-							<li><a href="#tabs-1">Visão Geral</a></li>
+							<li><a href="#tabs-1" class="active">Visão Geral</a></li>
 							<li><a href="#tabs-2">Documentos Relacionados</a></li>
 						</ul>
 						<div id="tabs-1">
@@ -45,7 +45,11 @@
 							</ul>
 						</div>
 						<div id="tabs-2">
-							<p>Aguarde...</p>
+							<ul class="list-box">
+								<li class="item-list">
+									<p class="item-content">Aguarde ...</p>		
+								</li>								
+							</ul>
 						</div>
 					</div>			
 				</div>				

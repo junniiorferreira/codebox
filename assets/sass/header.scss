@@ -25,6 +25,12 @@
 	    padding-bottom: 25px;
 	}    
 	.input-group{
+		.ico-web{
+			display:  none;
+		}
+		.ico-mobile{
+			display: inline;
+		}		
 		.form-control {
 			font-family: 'GothamBook', 'FontAwesome';
 			border-radius: 0;
@@ -179,9 +185,51 @@
 		}
 		.btn-search{
 		    text-align: right;
-		    margin-right: 15%;
+		    margin-right: 1vw;
 		    padding-left: 1vw;
 		}		
+	}
+	.login-form{
+		.login-form-title{
+			font-size: 20px;
+			line-height: 36px;
+		}
+		.form-check{
+		    font-size: 12px;
+		    line-height: 36px;
+		    label{
+		    	font-weight: 600;
+		    }		
+			input{
+			    vertical-align: text-bottom;	
+			}
+			a{
+				font-weight: 600;
+			}
+		}
+		.form-group{
+			.ico-web{
+				display: inline;
+			}
+			.ico-mobile{
+				display: none;
+			}
+			.form-control{
+			    font-size: 14px;
+			    line-height: 46px;
+			    height: 46px;
+			    border: 2px solid #cccccc;
+			    border-left: none;	
+			}
+			.btn-primary{
+			    font-size: 20px;
+			    line-height: 36px;				
+			}
+			p{
+				font-size: 16px;
+				line-height: 36px;
+			}
+		}
 	}
 	.header{
 		height: 75px;
@@ -241,6 +289,11 @@
 }
 
 @media screen and (min-width:1360px) and (max-width: 1400px) {
+	.login-box{
+		.btn-search{
+		    margin-right: 7vw;
+		}
+	}	
 	.header{
 		.menu-logo{
 		    .logo-web{
@@ -251,6 +304,11 @@
 }
 
 @media screen and (min-width:1400px) and (max-width: 1599px) {
+	.login-box{
+		.btn-search{
+		    margin-right: 10vw;
+		}
+	}	
 	.header{
 		.menu-logo{
 		    .logo-web{
@@ -261,6 +319,11 @@
 }
 
 @media screen and (min-width:1600px) and (max-width: 1919px) {
+	.login-box{
+		.btn-search{
+		    margin-right: 13.5vw;
+		}
+	}	
 	.header{
 		.menu-logo{
 		    .logo-web{
@@ -271,6 +334,11 @@
 }
 
 @media screen and (min-width:1920px) {
+	.login-box{
+		.btn-search{
+		    margin-right: 20vw;
+		}
+	}	
 	.header{
 		.menu-logo{
 		    .logo-web{

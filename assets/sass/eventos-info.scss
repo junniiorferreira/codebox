@@ -1,11 +1,11 @@
-.pesquisas-info{
+.eventos-info{
     width: 90%;
     margin-left: auto;
     margin-right: auto;	
     .breacumb{
     	display: none;
     }
-	.pesquisas-info-title {
+	.eventos-info-title {
 	    font-size: 16px;
 	    color: #078bcd;	
 	    font-family: 'gothambold';
@@ -13,10 +13,10 @@
 	    width: 100%;
 	    border-top: 1px solid #e4e4e4;
 	}
-	.pesquisas-info-container{
+	.eventos-info-container{
 	    padding-top: 20px;
 	    display: inline;
-	    .pesquisas-info-box-content{
+	    .eventos-info-box-content{
 			.bio-site{
 			    display: block;
 			    margin-left: auto;
@@ -43,13 +43,13 @@
 			    color: #9f9f9f;
 			    padding-top: 5px;
 			}			  	
-			.pesquisas-info-box{
+			.eventos-info-box{
 				padding-top: 0;
     			padding-bottom: 0;				
 				&:last-child{
 					padding-bottom: 75px;					
 				}			
-				.pesquisas-info-box-title {
+				.eventos-info-box-title {
 					font-family: 'gothamregular';
 					font-size: 10px;
 					line-height: 30px;
@@ -114,11 +114,11 @@
 					    }
 					}					
 				}
-				.pesquisas-info-list{
+				.eventos-info-list{
 					width: 90%;
 					margin-left: auto;
 					margin-right: auto;				
-					.pesquisas-info-result{
+					.eventos-info-result{
 						list-style: none;
 						&:first-child{
 							padding-top: 20px;					
@@ -143,7 +143,7 @@
 }
 @media screen and (min-width:1200px) {	
 	.page{
-		.pesquisas-info {
+		.eventos-info {
 		    padding-top: 110px;
 		    width: 98%;
 		    .breacumb {
@@ -154,16 +154,16 @@
 				text-align: right;
 				display: block;	
 			}			
-			.pesquisas-info-title{
+			.eventos-info-title{
 				display: none;			
 			}
-			.pesquisas-info-container{
-			    .pesquisas-info-box-header{
+			.eventos-info-container{
+			    .eventos-info-box-header{
 					width: 20%;
 					display: inline-grid;
 					vertical-align: top;
 				}
-			    .pesquisas-info-box-content{
+			    .eventos-info-box-content{
 					display: inline;
 					margin-bottom: 40px;
 					.bio-site{
@@ -176,7 +176,7 @@
 					.bio-status {
 					    padding-top: 25px;
 					}				    														
-					.pesquisas-info-box{
+					.eventos-info-box{
 						.ui-tabs{
 							.ui-tabs-nav{
 								    /* position: absolute; */
@@ -230,13 +230,13 @@
 							    }					
 							} 
 						} 
-						.pesquisas-info-box-title{
+						.eventos-info-box-title{
 							padding-left: 2vw;							
     						margin-bottom: 30px;
 						}
-						.pesquisas-info-list{
+						.eventos-info-list{
 	    					width: 95%;
-	    					.pesquisas-info-result{
+	    					.eventos-info-result{
 								.result-info{
 								    font-size: 12px;
 								    line-height: 20px;							
@@ -254,28 +254,28 @@
 }
 @media screen and (min-width:1360px) and (max-width: 1400px) {
 	.page{
-		.pesquisas-info {
+		.eventos-info {
 		    width: 86%;	
 		}
 	}
 }
 @media screen and (min-width:1400px) and (max-width: 1599px) {
 	.page{
-		.pesquisas-info {
+		.eventos-info {
 		    width: 80%;	
 		}
 	}	
 }
 @media screen and (min-width:1600px) and (max-width: 1919px) {
 	.page{
-		.pesquisas-info {
+		.eventos-info {
 		    width: 73%;	
 		}
 	}	
 }
 @media screen and (min-width:1920px) {
 	.page{
-		.pesquisas-info {
+		.eventos-info {
 		    width: 60%;	
 		}
 	}	

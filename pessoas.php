@@ -12,10 +12,18 @@
 							</div>
 							<div class="form-group">
 								<input class="form-control" name="search" type="text" placeholder="" />						
-							</div>											
+							</div>																		
 							<div class="form-group">
 								<button type="submit" class="btn btn-primary">ok</button>
 							</div>
+							<div class="form-group login-form-title">
+								<label>Por Tipo:</label>
+							</div>
+							<div class="form-group">
+								<select class="form-control" id="exampleSelect1">
+									<option>Todos</option>
+								</select>					
+							</div>							
 						</form>							
 					</div>					
 				</div>

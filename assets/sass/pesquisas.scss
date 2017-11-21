@@ -104,7 +104,6 @@
 					    font-size: 12px;
 					    color: #565656;
 					    margin-left: 0;
-					    padding-top: 10px;
 				    }				    
 				    .docente-img-mobile{
 				    	display: none;
@@ -113,7 +112,7 @@
 				    	display: inline-table;
 				    }
 					span{
-						display: inline-table;
+						display: inline-table;							
 					}
 				}
 			}
@@ -124,6 +123,7 @@
 	.page{
 		.pesquisas {
 		    padding-top: 110px;
+		    width: 98%;
 		    .breacumb {
 				font-family: 'GothamBook';
 				font-size: 13px;
@@ -131,13 +131,13 @@
 				color: #8e8e8e;
 				text-align: right;
 				display: block;
-			    padding-right: 2vw;	
+			    padding-right: 5vw;	
 			}			
 			.pesquisas-title{
 				display: none;				
 			}			
 			.pesquisas-container{
-				width: 90%;
+				width: 100%;
 				margin-left: auto;
 				margin-right: auto;				
 				.pesquisas-box{
@@ -149,7 +149,7 @@
 						margin-right: auto;
 						.docente{
 						    float: left;
-						    width: 100%;
+						    width: 50%;
 						    margin-left: auto;
 						    margin-right: auto;
 						}
@@ -158,12 +158,12 @@
 						}
 					}				    
 					.pesquisas-box-header {
-					    width: 30%;
+					    width: 22%;
 					    display: inline-grid;
 					    vertical-align: top;
 					}
 					.pesquisas-box-content {
-						width: 65%;
+						width: 75%;
 						display: inline-block;
 						border-left: 1px solid #dddddd;
 						margin-bottom: 40px;
@@ -197,7 +197,71 @@
 		}
 	}
 }
-@media screen and (min-width:1360px) and (max-width: 1400px) {}
-@media screen and (min-width:1400px) and (max-width: 1599px) {}
-@media screen and (min-width:1600px) and (max-width: 1919px) {}
-@media screen and (min-width:1920px) {}
+@media screen and (min-width:1360px) and (max-width: 1400px) {
+	.page{
+		.pesquisas {		
+			width:85%;
+			.pesquisas-container{
+				.pesquisas-box{
+					.pesquisas-box-header{
+						width: 23%;
+					}
+				}
+			}
+		}
+	}    
+}
+@media screen and (min-width:1400px) and (max-width: 1599px) {
+	.page{
+		.pesquisas {		
+			width:80%;
+			.pesquisas-container{
+				.pesquisas-box{
+					.pesquisas-box-header{
+						width: 24%;
+					}
+				}
+			}
+		}
+	}  	
+}
+@media screen and (min-width:1600px) and (max-width: 1919px) {
+	.page{
+		.pesquisas {		
+			width:75%;
+			.breacumb{
+    			padding-right: 2vw;
+			}
+			.pesquisas-container{
+				.pesquisas-box{
+					.pesquisas-box-header{
+						width: 25%;
+					}
+					.pesquisas-box-content{
+						width: 70%;
+					}					
+				}
+			}
+		}
+	}	
+}
+@media screen and (min-width:1920px) {
+	.page{
+		.pesquisas {		
+			width:60%;
+			.breacumb{
+    			padding-right: 0;
+			}
+			.pesquisas-container{
+				.pesquisas-box{
+					.pesquisas-box-header{
+						width: 25%;
+					}
+					.pesquisas-box-content{
+						width: 70%;
+					}					
+				}
+			}
+		}
+	}	
+}

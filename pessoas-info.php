@@ -39,7 +39,7 @@
 					<p class="pessoas-info-box-title">Informações</p>
 					<div id="tabs">
 						<ul class="tab-list">
-							<li><a href="#tabs-1">Biografia</a></li>
+							<li><a href="#tabs-1" class="active">Biografia</a></li>
 							<li><a href="#tabs-2">Afiliação</a></li>
 							<li><a href="#tabs-3">Pesquisa</a></li>
 							<li><a href="#tabs-4">Publicações</a></li>

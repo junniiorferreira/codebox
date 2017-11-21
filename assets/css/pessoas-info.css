@@ -149,21 +149,28 @@
       .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs {
         padding: 20px; }
         .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav {
-          position: absolute; }
+          /* position: absolute; */
+          width: 100%;
+          /* background: rebeccapurple; */
+          display: inline-flex; }
           .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor {
             font-size: 13px;
             line-height: 16px;
             border-right: none;
             margin-left: 0;
             padding-right: 0;
-            padding: 10px 20px; }
+            padding: 10px 21px;
+            outline: none;
+            outline-offset: 0; }
             .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .ui-tabs-anchor:focus {
-              outline: none;
-              outline-offset: 0;
-              border: 1px solid #dcdcdc;
-              border-bottom: 1px solid #ffffff; }
+              outline: none; }
+          .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-nav .ui-tabs-tab .active {
+            outline: none;
+            outline-offset: 0;
+            border: 1px solid #dcdcdc;
+            border-bottom: 3px solid #ffffff; }
         .page .pessoas-info .pessoas-info-container .pessoas-info-box-content .pessoas-info-box .ui-tabs .ui-tabs-panel {
-          margin-top: 28px;
+          margin-top: 10px;
           padding: 15px;
           padding-top: 0;
           border: 1px solid #dcdcdc; }

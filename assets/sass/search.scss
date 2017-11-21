@@ -60,6 +60,7 @@
 	.page{
 		.search {
 		    padding-top: 110px;
+		    width: 98%;
 		    .breacumb {
 				font-family: 'GothamBook';
 				font-size: 13px;
@@ -95,7 +96,31 @@
 		}
 	}
 }
-@media screen and (min-width:1360px) and (max-width: 1400px) {}
-@media screen and (min-width:1400px) and (max-width: 1599px) {}
-@media screen and (min-width:1600px) and (max-width: 1919px) {}
-@media screen and (min-width:1920px) {}
+@media screen and (min-width:1360px) and (max-width: 1400px) {
+	.page{
+		.search {
+		    width: 86%;	
+		}
+	}
+}
+@media screen and (min-width:1400px) and (max-width: 1599px) {
+	.page{
+		.search {
+		    width: 81%;	
+		}
+	}	
+}
+@media screen and (min-width:1600px) and (max-width: 1919px) {
+	.page{
+		.search {
+		    width: 73%;	
+		}
+	}		
+}
+@media screen and (min-width:1920px) {
+	.page{
+		.search {
+		    width: 60%;	
+		}
+	}	
+}
